@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowDown, MessageSquare, Compass } from 'lucide-react';
+import { heroFloridaHome } from '../assets/images';
 
 interface HeroProps {
   onOpenConnectModal: () => void;
@@ -12,7 +13,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConnectModal, onExploreService
       {/* Background Architectural Image with Fallback */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_florida_modern_home_1794401674044.jpg"
+          src={heroFloridaHome}
           alt="Modern Florida luxury home with contemporary architectural lines and palm trees"
           className="w-full h-full object-cover object-center scale-105 transform animate-in fade-in zoom-in-95 duration-1000"
           referrerPolicy="no-referrer"

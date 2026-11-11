@@ -1,5 +1,11 @@
 import React from 'react';
 import { Instagram, ArrowUpRight } from 'lucide-react';
+import {
+  heroFloridaHome,
+  floridaKitchen,
+  floridaOutdoorLiving,
+  ctaArchitectureEvening,
+} from '../assets/images';
 
 export const InstagramSection: React.FC = () => {
   const instagramUrl = 'https://www.instagram.com/ronysellshomes?srtk=Nmx3YXZzcnNyc3N4';
@@ -9,25 +15,25 @@ export const InstagramSection: React.FC = () => {
     {
       id: 'ig-1',
       title: 'Florida Architecture & Palms',
-      src: '/src/assets/images/hero_florida_modern_home_1794401674044.jpg',
+      src: heroFloridaHome,
       tag: 'New Construction'
     },
     {
       id: 'ig-2',
       title: 'Chef Kitchen Details',
-      src: '/src/assets/images/florida_lifestyle_kitchen_1794401674769.jpg',
+      src: floridaKitchen,
       tag: 'Home Design'
     },
     {
       id: 'ig-3',
       title: 'Covered Lanai Living',
-      src: '/src/assets/images/florida_outdoor_living_1794401675233.jpg',
+      src: floridaOutdoorLiving,
       tag: 'Sunshine Living'
     },
     {
       id: 'ig-4',
       title: 'Twilight Home Illumination',
-      src: '/src/assets/images/cta_architecture_evening_1794401676308.jpg',
+      src: ctaArchitectureEvening,
       tag: 'Florida Living'
     }
   ];

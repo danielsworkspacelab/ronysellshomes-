@@ -1,3 +1,10 @@
+import {
+  heroFloridaHome,
+  floridaKitchen,
+  floridaOutdoorLiving,
+  ctaArchitectureEvening,
+} from '../assets/images';
+
 export interface GalleryImage {
   id: string;
   title: string;
@@ -13,7 +20,7 @@ export const LIFESTYLE_GALLERY: GalleryImage[] = [
     title: 'Modern Florida Residence & Palm Landscaping',
     category: 'Exterior',
     description: 'Clean architectural lines paired with lush Florida tropical landscaping and natural stone accents.',
-    src: '/src/assets/images/hero_florida_modern_home_1794401674044.jpg',
+    src: heroFloridaHome,
     alt: 'Modern Florida home exterior with palm trees and limestone facade'
   },
   {
@@ -21,7 +28,7 @@ export const LIFESTYLE_GALLERY: GalleryImage[] = [
     title: 'Sunlit Chef-Inspired Kitchen',
     category: 'Interior',
     description: 'Expansive quartz island, custom cabinetry, warm natural wood stools, and abundant natural Florida daylight.',
-    src: '/src/assets/images/florida_lifestyle_kitchen_1794401674769.jpg',
+    src: floridaKitchen,
     alt: 'Bright modern open concept residential kitchen'
   },
   {
@@ -29,7 +36,7 @@ export const LIFESTYLE_GALLERY: GalleryImage[] = [
     title: 'Covered Lanai & Resort Outdoor Living',
     category: 'Outdoor Living',
     description: 'Seamless indoor-outdoor living with covered lanai seating, limestone pavers, and palm tree canopy.',
-    src: '/src/assets/images/florida_outdoor_living_1794401675233.jpg',
+    src: floridaOutdoorLiving,
     alt: 'Florida covered patio and resort style outdoor living space'
   },
   {
@@ -37,7 +44,7 @@ export const LIFESTYLE_GALLERY: GalleryImage[] = [
     title: 'Warm Twilight Architectural Illumination',
     category: 'Architecture',
     description: 'Welcoming evening illumination through expansive floor-to-ceiling windows and landscaped stone pathway.',
-    src: '/src/assets/images/cta_architecture_evening_1794401676308.jpg',
+    src: ctaArchitectureEvening,
     alt: 'Modern residential home illuminated at golden hour dusk'
   },
   {
@@ -45,7 +52,7 @@ export const LIFESTYLE_GALLERY: GalleryImage[] = [
     title: 'Welcoming Florida Residential Entrance',
     category: 'Exterior',
     description: 'Thoughtfully framed grand entryway featuring natural wood front door, tropical foliage, and modern paver driveway.',
-    src: '/src/assets/images/hero_florida_modern_home_1794401674044.jpg',
+    src: heroFloridaHome,
     alt: 'Welcoming front entrance of contemporary Florida residence'
   },
   {
@@ -53,7 +60,7 @@ export const LIFESTYLE_GALLERY: GalleryImage[] = [
     title: 'Open Great Room & Gathering Spaces',
     category: 'Interior',
     description: 'High ceilings, airy floor plans, and versatile living rooms designed for effortless everyday comfort and entertaining.',
-    src: '/src/assets/images/florida_lifestyle_kitchen_1794401674769.jpg',
+    src: floridaKitchen,
     alt: 'Expansive contemporary living room and open concept entertaining area'
   }
 ];

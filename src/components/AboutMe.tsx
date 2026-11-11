@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Camera, Mail, MessageSquare, ShieldCheck, Check, Upload } from 'lucide-react';
+import { aboutPortrait } from '../assets/images';
 
 interface AboutMeProps {
   onOpenConnectModal: () => void;
@@ -44,7 +45,7 @@ export const AboutMe: React.FC<AboutMeProps> = ({ onOpenConnectModal }) => {
                   ) : showSamplePhoto ? (
                     <div className="relative w-full h-full">
                       <img
-                        src="/src/assets/images/about_portrait_consultant_1794401674387.jpg"
+                        src={aboutPortrait}
                         alt="Editorial placeholder portrait"
                         className="w-full h-full object-cover"
                       />

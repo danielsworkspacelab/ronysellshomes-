@@ -1,3 +1,11 @@
+import {
+  heroFloridaHome,
+  aboutPortrait,
+  floridaKitchen,
+  floridaOutdoorLiving,
+  ctaArchitectureEvening,
+} from '../assets/images';
+
 export interface BlogPost {
   id: string;
   slug: string;
@@ -21,7 +29,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publicationDate: 'November 2026',
     category: 'New Construction',
     readTime: '5 min read',
-    thumbnail: '/src/assets/images/hero_florida_modern_home_1794401674044.jpg',
+    thumbnail: heroFloridaHome,
     keyTakeaways: [
       'New homes are engineered to current, rigorous Florida building codes with enhanced storm resilience.',
       'Comprehensive builder structural warranties provide multi-year protection and peace of mind.',
@@ -54,7 +62,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publicationDate: 'October 2026',
     category: 'First-Time Buyers',
     readTime: '6 min read',
-    thumbnail: '/src/assets/images/florida_lifestyle_kitchen_1794401674769.jpg',
+    thumbnail: floridaKitchen,
     keyTakeaways: [
       'Establishing a comfortable monthly housing budget is your true starting point.',
       'Credit health and steady documentation make financing straightforward.',
@@ -82,7 +90,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publicationDate: 'October 2026',
     category: 'Closing Process',
     readTime: '4 min read',
-    thumbnail: '/src/assets/images/cta_architecture_evening_1794401676308.jpg',
+    thumbnail: ctaArchitectureEvening,
     keyTakeaways: [
       'The Closing Disclosure provides a clear, finalized ledger of all transaction costs 3 days prior to closing.',
       'The pre-closing walkthrough ensures you learn all systems of your new home.',
@@ -104,7 +112,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publicationDate: 'September 2026',
     category: 'New Construction',
     readTime: '5 min read',
-    thumbnail: '/src/assets/images/florida_outdoor_living_1794401675233.jpg',
+    thumbnail: floridaOutdoorLiving,
     keyTakeaways: [
       'Inquire about specific homesite boundaries, drainage easements, and backyard views.',
       'Clarify exact standard features versus model home display upgrades.',
@@ -126,7 +134,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publicationDate: 'September 2026',
     category: 'Design & Living',
     readTime: '4 min read',
-    thumbnail: '/src/assets/images/hero_florida_modern_home_1794401674044.jpg',
+    thumbnail: heroFloridaHome,
     keyTakeaways: [
       'Open-concept great rooms create natural light corridors across living, dining, and kitchen areas.',
       'Split-bedroom layouts offer quiet seclusion for the primary bedroom suite.',
@@ -147,7 +155,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publicationDate: 'August 2026',
     category: 'Florida Living',
     readTime: '5 min read',
-    thumbnail: '/src/assets/images/florida_outdoor_living_1794401675233.jpg',
+    thumbnail: floridaOutdoorLiving,
     keyTakeaways: [
       'Evaluate your weekly radius: grocery, medical, airport, and highway access.',
       'Consider community amenities such as walking trails, fitness centers, and resort pools.',
@@ -168,7 +176,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publicationDate: 'August 2026',
     category: 'First-Time Buyers',
     readTime: '3 min read',
-    thumbnail: '/src/assets/images/about_portrait_consultant_1794401674387.jpg',
+    thumbnail: aboutPortrait,
     keyTakeaways: [
       'Bring a simple wishlist categorized by "Must-Haves" vs. "Nice-to-Haves".',
       'Clarify your target move-in window and flexibility.',
@@ -189,7 +197,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publicationDate: 'July 2026',
     category: 'Closing Process',
     readTime: '5 min read',
-    thumbnail: '/src/assets/images/cta_architecture_evening_1794401676308.jpg',
+    thumbnail: ctaArchitectureEvening,
     keyTakeaways: [
       'Test all faucets, plumbing fixtures, light switches, and GFCI outlets during the final walk.',
       'Verify that items identified during the pre-closing orientation have been resolved.',

@@ -1,5 +1,6 @@
 import React from 'react';
 import { MessageSquare, Mail } from 'lucide-react';
+import { ctaArchitectureEvening } from '../assets/images';
 
 export const MainCTA: React.FC = () => {
   return (
@@ -7,7 +8,7 @@ export const MainCTA: React.FC = () => {
       {/* Background Architectural Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/cta_architecture_evening_1794401676308.jpg"
+          src={ctaArchitectureEvening}
           alt="Florida modern home architecture at evening twilight"
           className="w-full h-full object-cover object-center"
           loading="lazy"
