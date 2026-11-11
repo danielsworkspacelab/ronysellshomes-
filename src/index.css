@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #292925;
+    background-color: #FAF8F4;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom utility colors */
+.bg-warm-ivory { background-color: #E9DFD0; }
+.bg-champagne { background-color: #D5C2A5; }
+.bg-offwhite { background-color: #FAF8F4; }
+.bg-taupe { background-color: #A99A87; }
+.bg-espresso { background-color: #493B32; }
+.bg-charcoal { background-color: #292925; }
+.bg-muted-gold { background-color: #B69A70; }
+
+.text-warm-ivory { color: #E9DFD0; }
+.text-champagne { color: #D5C2A5; }
+.text-offwhite { color: #FAF8F4; }
+.text-taupe { color: #A99A87; }
+.text-espresso { color: #493B32; }
+.text-charcoal { color: #292925; }
+.text-muted-gold { color: #B69A70; }
+
+.border-warm-ivory { border-color: #E9DFD0; }
+.border-champagne { border-color: #D5C2A5; }
+.border-taupe { border-color: #A99A87; }
+.border-espresso { border-color: #493B32; }
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F4;
+}
+::-webkit-scrollbar-thumb {
+  background: #D5C2A5;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A99A87;
+}
